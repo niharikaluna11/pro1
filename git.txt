@@ -1,0 +1,44 @@
+GIT : VERSION CONTROL TOOL
+
+--------------------------------------------------
+
+git status --short
+git --version
+
+-----------------------------------------------------
+
+#config thing that assign global to all repo
+git config --global user.name "w3schools-test"
+git config --global user.email "test@w3schools.com"
+
+-------------------------------------------------------
+
+git init 
+git add . --all -A
+git commit -a -m -am
+git log
+git branch branch-name
+git branch
+git checkout branch-name
+git merge branch-name
+git remote add origin httpslink
+git push --set-upstream origin master
+
+----------------------------------------------------------
+
+git tag remmoval adding pushing
+
+# delete local tag '12345'
+git tag -d 12345
+# delete remote tag '12345' (eg, GitHub version too)
+git push origin :refs/tags/12345
+# alternative approach
+git push --delete origin tagName
+git tag -d tagName
+
+-----------------------------------------------------------
+
+stashing chngs in git pr cherrypick 
+git stash list,pop,save,drop
+
+-------------------------------------------------------------
